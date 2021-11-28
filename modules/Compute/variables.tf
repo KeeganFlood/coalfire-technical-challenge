@@ -10,7 +10,7 @@ variable "security_group_id" {
 
 variable "key_name" {
     type        = string
-    description = "VPC SG ID"
+    description = "Amazon provided Key Name"
 }
 
 variable "public_subnet_id_list" {
